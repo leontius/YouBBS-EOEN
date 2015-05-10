@@ -1,0 +1,30 @@
+body {
+	background-color: #000;
+	text-align: center;
+	font-family: "Helvetica Neue", "Luxi Sans", "DejaVu Sans", Tahoma, "Hiragino Sans GB", STHeiti !important;
+}
+.error {
+	background-image: url('../404.gif');
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 250px;
+	width: auto;
+	margin: 50px;
+}
+p {
+	color: #fff;
+	font-size: 2.5em;
+	margin-top: -60px;
+}
+a {
+	color: #fff;
+	text-decoration: none;
+	border: 1px solid #FFFFFF;
+	padding: 10px;
+	border-radius: 4px;
+	font-size: 1.0em;
+	white-space: nowrap;
+}
+a:hover {
+	border: 1px solid red;
+}
