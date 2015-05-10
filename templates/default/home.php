@@ -12,7 +12,7 @@ echo '
 foreach($articledb as $article){
 echo '
 <div class="post-list">
-    <div class="item-avatar"><a href="/member/',$article['uid'],'">';
+    <div class="item-avatar"><a href="/user/',$article['uid'],'">';
 if(!$is_spider){
     echo '<img src="/avatar/large/',$article['uavatar'],'.png" alt="',$article['author'],'" />';
 }else{
