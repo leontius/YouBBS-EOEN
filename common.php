@@ -223,7 +223,7 @@ function set_content($text,$spider='0'){
     }
     // mentions
     if(strpos(' '.$text, '@')){
-        $text = preg_replace('/\B\@([a-zA-Z0-9\x80-\xff]{4,20})/', '@<a href="'.$options['base_url'].'/member/\1">\1</a>', $text);
+        $text = preg_replace('/\B\@([a-zA-Z0-9\x80-\xff]{4,20})/', '@<a href="'.$options['base_url'].'/user/\1">\1</a>', $text);
     }
     // url
     if(strpos(' '.$text, 'http')){
