@@ -6,7 +6,7 @@
  *在 youBBS 的代码基础之上发布派生版本，名字可以不包含youBBS，
  *但是页脚需要带有 based on youBBS 的字样和链接。
  */
-define('SAESPOT_VER', '1.04');
+define('SAESPOT_VER', '2.0');
 if (!defined('IN_SAESPOT')) exit('error: 403 Access Denied');
 
 $mtime = explode(' ', microtime());
