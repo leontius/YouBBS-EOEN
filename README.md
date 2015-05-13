@@ -4,11 +4,11 @@
 
 #####YouBBS 是一款轻量级的论坛程序，基于标准的php+mysql环境;为了让url更优美，服务器必须支持rewrite。
 
-####demo示例 [EOEN](http://v2.youbbs.eoen.org/ "EOEN")
+####demo示例 [V2demo](http://v2.youbbs.eoen.org/)
 ####
 <p>youBBS是开源项目，可自由修改，但要保留Powered by YouBBS链接信息</p>
 
-详细安装说明参见官方论坛  [YouBBS论坛](http://youbbs.sinaapp.com/t-101)  
+详细安装说明参见  [2.0 VPS 版本安装教程](http://v2.youbbs.eoen.org/topics/2)  
 
 <p>这个版本在原版的基础上做了一些很大的功能上的新增与改进，所以在安装这个版本之前最好删除之前的代码在重新部署！（注意备份数据）</p>
 
